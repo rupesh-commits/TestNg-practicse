@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Anotations.CricketTeams">
+      <class name="HelperMethods.prioirty">
         <methods>
+          <include name="mi"/>
           <include name="Rcb"/>
           <include name="CSK_Team"/>
         </methods>
-      </class> <!-- Anotations.CricketTeams -->
+      </class> <!-- HelperMethods.prioirty -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
