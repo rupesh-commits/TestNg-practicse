@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-11T11:26:05 IST" name="Default suite" finished-at="2026-05-11T11:26:08 IST" duration-ms="2755">
+  <suite started-at="2026-05-13T08:36:41 IST" name="Default suite" finished-at="2026-05-13T08:36:41 IST" duration-ms="108">
     <groups>
     </groups>
-    <test started-at="2026-05-11T11:26:05 IST" name="Default test" finished-at="2026-05-11T11:26:08 IST" duration-ms="2755">
-      <class name="Basic.Launch">
-        <test-method signature="Signin()[pri:0, instance:Basic.Launch@2a3b5b47]" started-at="2026-05-11T11:26:05 IST" name="Signin" finished-at="2026-05-11T11:26:05 IST" duration-ms="16" status="PASS">
+    <test started-at="2026-05-13T08:36:41 IST" name="Default test" finished-at="2026-05-13T08:36:41 IST" duration-ms="108">
+      <class name="cases.case6">
+        <test-method signature="Bcd()[pri:0, instance:cases.case6@55b699ef]" started-at="2026-05-13T08:36:41 IST" name="Bcd" finished-at="2026-05-13T08:36:41 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Signin -->
-        <test-method signature="manin_m1()[pri:0, instance:Basic.Launch@2a3b5b47]" started-at="2026-05-11T11:26:05 IST" name="manin_m1" finished-at="2026-05-11T11:26:08 IST" duration-ms="2657" status="PASS">
+        </test-method> <!-- Bcd -->
+        <test-method signature="Yt()[pri:0, instance:cases.case6@55b699ef]" started-at="2026-05-13T08:36:41 IST" name="Yt" finished-at="2026-05-13T08:36:41 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- manin_m1 -->
-      </class> <!-- Basic.Launch -->
+        </test-method> <!-- Yt -->
+        <test-method signature="Zbc()[pri:0, instance:cases.case6@55b699ef]" started-at="2026-05-13T08:36:41 IST" name="Zbc" finished-at="2026-05-13T08:36:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zbc -->
+      </class> <!-- cases.case6 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
