@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.tests_case5205">
+      <class name="testScripts.tests_script1">
         <methods>
+          <include name="add_gift_card_script"/>
           <include name="preCondition"/>
           <include name="login"/>
-          <include name="testScript0101"/>
           <include name="logout"/>
           <include name="postCondition"/>
         </methods>
-      </class> <!-- testScripts.tests_case5205 -->
+      </class> <!-- testScripts.tests_script1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

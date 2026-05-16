@@ -2,6 +2,7 @@ package BaseUtility;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -31,28 +32,28 @@ public class Base {
 		// driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
-		System.out.println("pre confition");
+		System.out.println("pre condition");
 	}
 
 	@BeforeMethod
 	public void login() throws InterruptedException {
 		driver.findElement(By.className("ico-login")).click();
-		driver.findElement(By.id("Email")).sendKeys("mani2305@gmail.com");
-		driver.findElement(By.id("Password")).sendKeys("mani2305");
-		driver.findElement(By.cssSelector(".button-1.login-button")).click();
-		System.out.println("Before method");
+		driver.findElement(By.id("Email")).sendKeys("dfgq@gmail.com");
+		driver.findElement(By.id("Password")).sendKeys("Abcd@1234");
+		driver.findElement(By.cssSelector(".button-1.login-button")).click();	
+			System.out.println("Before method");
 
 	}
 
 	@AfterMethod
 	public static void logout() {
 		driver.findElement(By.className("ico-logout")).click();
-		System.out.println("After method");
+		System.out.println("After method --logout");
 	}
 
 	@AfterClass
 	public static void postCondition() {
-		System.out.println("post confition");
+		System.out.println("post condition");
 		driver.close();
 	}
 
